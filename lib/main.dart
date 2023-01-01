@@ -14,6 +14,8 @@ class App extends StatelessWidget {
         ),
         home: Scaffold(
           appBar: AppBar(
+            elevation: 10,
+            centerTitle: true,
             title: Text('App bar  title'),
           ),
           body: Center(
