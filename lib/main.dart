@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
+class Wonjang {
+  String name;
+  int age;
+}
+
 void main() {
+  Wonjang wonjang = Wonjang();
   runApp(App());
 }
 
