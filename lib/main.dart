@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 
 class Wonjang {
   String name;
-  int age;
+
+  Wonjang({required this.name});
 }
 
 void main() {
-  Wonjang wonjang = Wonjang();
+  var wonjang = Wonjang(name: "Wonjang");
   runApp(App());
 }
 
