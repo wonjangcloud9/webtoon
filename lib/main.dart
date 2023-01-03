@@ -20,20 +20,20 @@ class App extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         home: Scaffold(
-            backgroundColor: Color(0xFF181818),
+            backgroundColor: const Color(0xFF181818),
             body: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 40),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  SizedBox(height: 80),
+                  const SizedBox(height: 80),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text("Hey, Selena",
+                          const Text("Hey, Selena",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 28,
@@ -47,7 +47,7 @@ class App extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 120,
                   ),
                   Text(
@@ -57,10 +57,10 @@ class App extends StatelessWidget {
                       fontSize: 18,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
-                  Text(
+                  const Text(
                     '\$5 194 482',
                     style: TextStyle(
                       color: Colors.white,
@@ -68,7 +68,7 @@ class App extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
                   Row(
@@ -78,7 +78,7 @@ class App extends StatelessWidget {
                           color: Colors.amber,
                           borderRadius: BorderRadius.circular(45),
                         ),
-                        child: Padding(
+                        child: const Padding(
                           padding: EdgeInsets.symmetric(
                             horizontal: 50,
                             vertical: 20,
