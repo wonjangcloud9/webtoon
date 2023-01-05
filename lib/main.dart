@@ -22,11 +22,11 @@ class App extends StatelessWidget {
         home: Scaffold(
             backgroundColor: const Color(0xFF181818),
             body: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
+              padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 80),
+                  const SizedBox(height: 60),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
@@ -48,7 +48,7 @@ class App extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(
-                    height: 120,
+                    height: 40,
                   ),
                   Text(
                     'Total Balance',
@@ -80,13 +80,13 @@ class App extends StatelessWidget {
                         ),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(
-                            horizontal: 50,
-                            vertical: 20,
+                            horizontal: 30,
+                            vertical: 13,
                           ),
                           child: Text(
                             "Transfer",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 22,
                             ),
                           ),
@@ -99,8 +99,8 @@ class App extends StatelessWidget {
                         ),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(
-                            horizontal: 50,
-                            vertical: 20,
+                            horizontal: 30,
+                            vertical: 13,
                           ),
                           child: Text(
                             "Request",
