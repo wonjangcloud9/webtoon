@@ -83,11 +83,32 @@ class App extends StatelessWidget {
                             horizontal: 50,
                             vertical: 20,
                           ),
-                          child: Text("Transfer",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 22,
-                              )),
+                          child: Text(
+                            "Transfer",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 22,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.amber,
+                          borderRadius: BorderRadius.circular(45),
+                        ),
+                        child: const Padding(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 50,
+                            vertical: 20,
+                          ),
+                          child: Text(
+                            "Request",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 22,
+                            ),
+                          ),
                         ),
                       ),
                     ],
