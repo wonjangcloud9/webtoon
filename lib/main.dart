@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webtoon/widgets/button.dart';
 
 class Wonjang {
   String? name;
@@ -72,44 +73,17 @@ class App extends StatelessWidget {
                     height: 30,
                   ),
                   Row(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.amber,
-                          borderRadius: BorderRadius.circular(45),
-                        ),
-                        child: const Padding(
-                          padding: EdgeInsets.symmetric(
-                            horizontal: 30,
-                            vertical: 13,
-                          ),
-                          child: Text(
-                            "Transfer",
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 22,
-                            ),
-                          ),
-                        ),
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: const [
+                      Button(
+                        text: "Transfer",
+                        bgColor: Color(0xFFF1B33B),
+                        textColor: Colors.black,
                       ),
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.amber,
-                          borderRadius: BorderRadius.circular(45),
-                        ),
-                        child: const Padding(
-                          padding: EdgeInsets.symmetric(
-                            horizontal: 30,
-                            vertical: 13,
-                          ),
-                          child: Text(
-                            "Request",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 22,
-                            ),
-                          ),
-                        ),
+                      Button(
+                        text: "Request",
+                        bgColor: Color(0xFF1F2123),
+                        textColor: Colors.white,
                       ),
                     ],
                   )
