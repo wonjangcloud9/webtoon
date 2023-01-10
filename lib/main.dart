@@ -36,7 +36,7 @@ class App extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
-                        const Text("Hey, Selena",
+                        const Text("Hey, Wonajng",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 28,
@@ -97,7 +97,7 @@ class App extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "wallets",
+                      "Wallets",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 32,
