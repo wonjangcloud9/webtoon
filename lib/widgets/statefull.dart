@@ -8,16 +8,16 @@ class StateFullExample extends StatefulWidget {
 }
 
 class _StateFullExampleState extends State<StateFullExample> {
+  int counter = 0;
+
+  void onClick() {
+    setState(() {
+      counter = counter + 1;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    int counter = 0;
-
-    void onClick() {
-      setState(() {
-        counter = counter + 1;
-      });
-    }
-
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
