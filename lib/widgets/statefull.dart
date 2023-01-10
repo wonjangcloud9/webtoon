@@ -9,10 +9,12 @@ class StateFullExample extends StatefulWidget {
 
 class _StateFullExampleState extends State<StateFullExample> {
   int counter = 0;
+  List<int> numbers = [];
 
   void onClick() {
     setState(() {
       counter = counter + 1;
+      numbers.add(numbers.length);
     });
   }
 
@@ -28,10 +30,13 @@ class _StateFullExampleState extends State<StateFullExample> {
               color: Colors.white,
             ),
           ),
-          Text(
-            '$counter',
-            style: Theme.of(context).textTheme.headline4,
-          ),
+          for (var number in numbers)
+            Text(
+              '$number',
+              style: const TextStyle(
+                color: Colors.white,
+              ),
+            ),
           IconButton(
             onPressed: onClick,
             icon: const Icon(Icons.add),
