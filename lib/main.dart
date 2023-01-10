@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:webtoon/widgets/button.dart';
 import 'package:webtoon/widgets/currency_card.dart';
+import 'package:webtoon/widgets/statefull.dart';
 
 class Wonjang {
   String? name;
@@ -46,6 +47,7 @@ class App extends StatelessWidget {
                               color: Colors.white.withOpacity(0.8),
                               fontSize: 18,
                             )),
+                        const StateFullExample()
                       ],
                     )
                   ],
